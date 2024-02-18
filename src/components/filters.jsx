@@ -34,12 +34,12 @@ const Filters = () => {
 
   return (
     <div className="max-w-[371px] z-50">
-      {/* Heading */}
+      
       <h5 className="text-md font-semibold ml-14 mt-6 mb-2">Package Type</h5>
 
-      {/* Columns */}
+      
       <div className="flex mt-4 ml-14">
-        {/* First Column */}
+      
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -56,10 +56,10 @@ const Filters = () => {
           </div>
         </div>
 
-        {/* Spacer */}
+        
         <div className="w-8 ml-24"></div>
 
-        {/* Second Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -81,9 +81,9 @@ const Filters = () => {
 
       <h5 className="text-md font-semibold ml-14 mt-2 mb-2 ">Sort By</h5>
 
-      {/* Columns */}
+      
       <div className="flex mt-4 ml-14">
-        {/* First Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -100,10 +100,10 @@ const Filters = () => {
           </div>
         </div>
 
-        {/* Spacer */}
+        
         <div className="w-8 ml-24"></div>
 
-        {/* Second Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -125,9 +125,9 @@ const Filters = () => {
 
       <h5 className="text-md font-semibold ml-14 mt-2 mb-2 ">Budget</h5>
 
-      {/* Columns */}
+      
       <div className="flex mt-4 ml-14">
-        {/* First Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -144,10 +144,10 @@ const Filters = () => {
           </div>
         </div>
 
-        {/* Spacer */}
+        
         <div className="w-8 ml-32"></div>
 
-        {/* Second Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -215,7 +215,7 @@ const Filters = () => {
 
       <h5 className="text-md font-semibold ml-14 mt-2 mb-2">What's Included</h5>
       <div className="ml-14 mt-4 flex">
-        {/* First Column */}
+      
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <input
@@ -251,7 +251,7 @@ const Filters = () => {
           </div>
         </div>
 
-        {/* Second Column */}
+        
         <div className="flex flex-col space-y-2 ml-8">
           <div className="flex items-center">
             <input
@@ -293,9 +293,9 @@ const Filters = () => {
 
       <h5 className="text-md font-semibold ml-14 mt-2 mb-2 ">One Key Benefits</h5>
 
-      {/* Columns */}
+      
       <div className="flex mt-4 ml-14">
-        {/* First Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -305,10 +305,10 @@ const Filters = () => {
           </div>
         </div>
 
-        {/* Spacer */}
+        
         <div className="w-8 ml-24"></div>
 
-        {/* Second Column */}
+        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
