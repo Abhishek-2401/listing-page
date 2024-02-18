@@ -1,4 +1,4 @@
-// PackageCard.js
+
 import React from "react";
 
 const PackageCard = () => {
