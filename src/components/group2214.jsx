@@ -1,4 +1,4 @@
-// ImageWithText.jsx
+
 import React from "react";
 import Packages from '../components/packages.jsx'
 
@@ -11,7 +11,7 @@ const group2214 = () => {
         className="bg-cover bg-center bg-img relative"
         style={{ backgroundImage: "url(bagpacker-bg.png)" }}
       >
-        {/* Linear gradient overlay */}
+        
         <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-50"></div>
 
         <div className="text-content absolute inset-0 flex items-center justify-between p-8">
