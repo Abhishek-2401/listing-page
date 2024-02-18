@@ -2,13 +2,11 @@
 import React from "react";
 
 const PackageCard = () => {
-  // Actual data for each package card
+  
   const cards = [
     {
       id: 1,
       title: "Munnar : Honeymoon Package",
-      description: "Description for Package 1",
-      price: "$100",
       imageUrl: "card-1.png",
       rating: "4.5/5",
       ratingsCount: "1K+ ratings",
@@ -17,8 +15,6 @@ const PackageCard = () => {
     {
       id: 2,
       title: "Munnar : Honeymoon Package",
-      description: "Description for Package 2",
-      price: "$150",
       imageUrl: "card-2.png",
       rating: "4.5/5",
       ratingsCount: "1K+ ratings",
@@ -27,8 +23,6 @@ const PackageCard = () => {
     {
       id: 3,
       title: "Munnar : Honeymoon Package",
-      description: "Description for Package 3",
-      price: "$120",
       imageUrl: "card-3.png",
       rating: "4.5/5",
       ratingsCount: "1K+ ratings",
@@ -37,8 +31,6 @@ const PackageCard = () => {
     {
       id: 4,
       title: "Munnar : Honeymoon Package",
-      description: "Description for Package 4",
-      price: "$200",
       imageUrl: "card-4.png",
       rating: "4.5/5",
       ratingsCount: "1K+ ratings",
@@ -53,7 +45,7 @@ const PackageCard = () => {
           key={card.id}
           className="bg-white m-4 rounded-3xl border border-gray-300 relative flex"
         >
-          {/* Image on the left with specific size */}
+          
           <div className="relative rounded-lg overflow-hidden p-2 w-[501px] h-[243px]">
             <img
               src={card.imageUrl}
@@ -61,9 +53,9 @@ const PackageCard = () => {
               className="object-cover rounded-tl-2xl rounded-bl-2xl w-full h-full"
             />
 
-            {/* Icons at top-right corner */}
+            
             <div className="absolute top-0 right-0 m-4 flex flex-col items-center">
-              {/* Bookmark Icon */}
+              
               <div className="w-6 h-6 bg-white rounded-full mb-2 flex items-center justify-center">
                 <img
                   src="bookmark-icon.png"
@@ -72,7 +64,7 @@ const PackageCard = () => {
                 />
               </div>
 
-              {/* Share Icon */}
+              
               <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
                 <img
                   src="share-icon.png"
@@ -83,12 +75,12 @@ const PackageCard = () => {
             </div>
           </div>
 
-          {/* Text on the right */}
+          
           <div className="flex flex-col ml-2 w-full">
             <div className="flex items-center mt-[17px] justify-between">
               <h4 className="text-xl font-semibold tracking-normal leadin-8">{card.title}</h4>
 
-              {/* Premium, Mid-Range, or Budget tag with icon to the left side of the title */}
+              
               {card.id === 1 || card.id === 2 ? (
                 <div className="bg-[#53E80D] text-black text-xs font-medium px-3 py-2 rounded-tl-2xl rounded-bl-2xl flex items-center">
                   <img
@@ -101,7 +93,7 @@ const PackageCard = () => {
               ) : card.id === 3 ? (
                 <div className="bg-[#E8AB0D9C] text-black text-xs font-medium px-3 py-2 rounded-tl-2xl rounded-bl-2xl flex items-center">
                   <img
-                    src="midrange.png"  // Replace with the actual icon for Mid-Range
+                    src="midrange.png" 
                     alt="Mid-Range Icon"
                     className="w-3 h-3 mr-1"
                   />
@@ -110,7 +102,7 @@ const PackageCard = () => {
               ) : (
                 <div className="bg-[#0DC1E859] text-black text-xs font-medium px-3 py-2 rounded-tl-2xl rounded-bl-2xl flex items-center">
                   <img
-                    src="budget.png"  // Replace with the actual icon for Budget
+                    src="budget.png"  
                     alt="Budget Icon"
                     className="w-3 h-3 mr-1"
                   />
@@ -119,7 +111,7 @@ const PackageCard = () => {
               )}
             </div>
 
-            {/* Rating div below the title */}
+            
             <div className="flex items-center mt-4 text-gray-500  mt-2">
               <img src="star.png" alt="Star Icon" className="w-4 h-4 mr-2 mb-1" />
               <span className="font-medium text-lg text-black mr-2">
@@ -141,7 +133,7 @@ const PackageCard = () => {
               )}
             </div>
 
-            {/* What's Included section */}
+            
             <div className="flex flex-col mt-4">
               <h5 className="text-sm font-semibold tracking-wider">What's Included</h5>
               <div className="flex flex-wrap">
@@ -180,7 +172,7 @@ const PackageCard = () => {
               </div>
             </div>
 
-            {/* Price section */}
+            
             <div className="mt-4 flex items-center">
               <div className="bg-white border border-[#FF0000] text-[#FF0000] text-sm px-2 py-1 rounded-full">
                 25% off
@@ -192,7 +184,7 @@ const PackageCard = () => {
                   ₹10000
                 </span>
               </div>
-              {/* Honeymoon Package text */}
+              
               <div className="ml-auto text-[#787878] mr-2 text-sm">#Honeymoon Package</div>
             </div>
 
