@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
@@ -30,16 +29,12 @@ const Filters = () => {
       [itemName]: !prevItems[itemName],
     }));
   };
-  
 
   return (
-    <div className="max-w-[371px] z-50">
-      
-      <h5 className="text-md font-semibold ml-14 mt-6 mb-2">Package Type</h5>
+    <div className="max-w-[371px] z-50 lg:w-full md:w-full sm:w-full">
+      <h5 className="text-md font-semibold ml-4 sm:ml-8 md:ml-14 lg:ml-14 mt-6 mb-2">Package Type</h5>
 
-      
-      <div className="flex mt-4 ml-14">
-      
+      <div className="flex mt-4 ml-4 sm:ml-8 md:ml-14 lg:ml-14">
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -56,10 +51,8 @@ const Filters = () => {
           </div>
         </div>
 
-        
-        <div className="w-8 ml-24"></div>
+        <div className="w-8 ml-24 md:ml-16 sm:md-6"></div>
 
-        
         <div className="flex flex-col space-y-2">
           <div className="flex items-center">
             <label className="inline-flex items-center">
@@ -77,7 +70,12 @@ const Filters = () => {
         </div>
       </div>
 
-      <div className="border-t-2 border-[#F1F0F6] mt-10 ml-14 pt-4"></div>
+      <div className="border-t-2 border-[#F1F0F6] mt-4 ml-4 sm:mt-10 sm:ml-8 md:mt-10 md:ml-14 lg:mt-10 lg:ml-14 pt-4"></div>
+
+    
+
+    
+
 
       <h5 className="text-md font-semibold ml-14 mt-2 mb-2 ">Sort By</h5>
 
@@ -101,7 +99,7 @@ const Filters = () => {
         </div>
 
         
-        <div className="w-8 ml-24"></div>
+        <div className="w-8  md:ml-20 sm:md-6"></div>
 
         
         <div className="flex flex-col space-y-2">
@@ -145,7 +143,7 @@ const Filters = () => {
         </div>
 
         
-        <div className="w-8 ml-32"></div>
+        <div className="w-8 md:ml-20 sm:md-6 "></div>
 
         
         <div className="flex flex-col space-y-2">
@@ -252,7 +250,7 @@ const Filters = () => {
         </div>
 
         
-        <div className="flex flex-col space-y-2 ml-8">
+        <div className="flex flex-col space-y-2 md:ml-20 sm:md-6">
           <div className="flex items-center">
             <input
               type="checkbox"
@@ -306,7 +304,7 @@ const Filters = () => {
         </div>
 
         
-        <div className="w-8 ml-24"></div>
+        <div className="w-8 md:ml-36 sm:md-6"></div>
 
         
         <div className="flex flex-col space-y-2">
